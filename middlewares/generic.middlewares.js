@@ -4,4 +4,3 @@ const morgan = require('morgan');
 exports.jsonMiddleware = express.json();
 
 exports.morganMiddleware = morgan('dev');
-
